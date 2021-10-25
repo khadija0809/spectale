@@ -4,15 +4,14 @@
 
 - créer un site recensant des spectacles (concerts, balets, cirque, ...)
 - pages :
-   - accueil
-   - contact
-   - spectacles
-   - contact
-   - toute autre jugé nécessaire
-- on voudra retrouver les informations sur les spectacles mais aussi sur les artistes zt les salles
-- le choix des visuels est libre (css, bootstrap, ...)
+    - accueil
+    - spectacles
+    - spectacle
+    - contact
+    - toute autre page jugée nécessaire
+- on voudra retrouver les informations sur les spectacles mais aussi sur les artistes et les salles
+- le choix des visuels est libre (CSS, Bootstrap, ...)
 - le projet devra être rendu avec Git
-
 
 # CONSEILS
 
@@ -34,7 +33,7 @@ git remote add origin lien_du_depot_distant.go
 ```
 - dire quels fichiers envoyer :
 ```
-git add*
+git add *
 ```
 - préciser un message pour le commit -m :
 ```

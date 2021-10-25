@@ -1,0 +1,33 @@
+/* **************************************** RESET **************************************** */
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+h3{
+    font-size: 1.25em;
+}
+p{
+    text-align: justify;
+}
+header nav img{
+    max-height: 35px;
+}
+table img {
+    max-width: 200px;
+} */
