@@ -1,3 +1,9 @@
+<?php
+  
+   require_once('config/database.php');
+   ?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -13,6 +19,14 @@
     </header>
 
     <main>
+         <!-- contenu principal du site -->
+         <?php
+    //    if(isset($_GET['page']) && $_GET['page'] !== null && file_exists('views/' . $_GET['page'] . '.php')){
+    //        include_once('views/' . $_GET['page'] . '.php');
+    //    }else{
+    //        include_once('views/home.php');
+    //    }
+    //    ?>
 
     </main>
 
