@@ -22,7 +22,7 @@
                         <h5 class="card-title"><?= $spectacle['title'] ?></h5>
                         <h6 class="card-subtitle mb-2 text-muted"><?= $spectacle['artist'] . " - " . $spectacle['date'] . " - " . $spectacle['theater'] ?></h6>
                         <p class="card-text"><?= substr($spectacle['content'], 0, 200) . '...' ?></p>
-                        <a href="index.php?page=spectacle&evenement=<?= $spectacle['id'] ?>" class="btn btn-secondary">En savoir plus</a>
+                        <a href="index.php?page=spectacle&evenement=<?= $spectacle['id'] ?>" class="btn btn-outline-warning">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
         <?php }
         ?>
         <div class="col-12 text-end mb-5">
-            <a href="index.php?page=spectacles" class="btn btn-outline-dark">Tous les Spectacles</a>
+            <a href="index.php?page=spectacles" class="btn btn-warning">Tous les Spectacles</a>
 
         </div>
 
