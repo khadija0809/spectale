@@ -43,7 +43,7 @@
             <input type="number" name="price" min="0" max="999,99" required>
             <br>
 
-            <label for="link">link</label>
+            <label for="link">lien</label>
             <input type="url" name="link" required><br>
 
             <label for="category">catégorie</label>

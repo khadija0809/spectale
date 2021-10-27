@@ -28,7 +28,7 @@
                        <tr>
                            <td><?= $i ?></td>
                            <td><?= $spectacle['title'] ?></td>
-                           <td><?= substr($spectacle['description'], 0, 200) ?></td>
+                           <td><?= substr($spectacle['content'], 0, 200) ?></td>
                            <td><img src="photos/images/<?= $spectacle['img'] ?>"></td>
                            <td><?= $spectacle['date'] ?></td>
                            <td><?= $spectacle['artist'] ?></td>

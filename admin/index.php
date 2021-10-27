@@ -8,7 +8,7 @@ if (isset($_SESSION['notification'])) {
 session_destroy();
 require_once('../config/database.php');
 $req = $db->query('SELECT id, title, artist, theater, date, img, content, price, link, category FROM spectacle ORDER BY id DESC');
-$posts = $req->fetchAll();
+$spectacles = $req->fetchAll();
 
 
 ?>
@@ -63,7 +63,7 @@ $posts = $req->fetchAll();
                     <td><?= $spectacle['theater'] ?></td>
                     <td>
                          <a href="#"><i class="bi bi-pencil-square"></i></a> 
-                         <a href="treatment.php?delete=<?= $spectacle['id'] ?>"><i class="bi bi-trash-fill"></i></a> -->
+                         <a href="treatment.php?delete=<?= $spectacle['id'] ?>"><i class="bi bi-trash-fill"></i></a> 
                     </td>
                 </tr>
             <?php }
